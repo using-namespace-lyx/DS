@@ -1,0 +1,12 @@
+-> You maintain a visited array in traversals because you have to keep track of various connected components in case of not a single connected graph 
+    , but has multiple connected components
+
+-> visited[n+1]// 1 based graph , visited[n]// 0 based graph (boolean array )
+
+-> In case of a BFS
+    You basically start with a start node (could be any node)
+    You go level wise : first visit all nodes at level 1 wrt start node that is all nodes at distance 1
+    Then you visit nodes at level 2 or distance 2 wrt start node
+    This repeats till all nodes are covered
+
+    You use queue as a datastructure

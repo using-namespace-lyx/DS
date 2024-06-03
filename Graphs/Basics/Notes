@@ -1,0 +1,4 @@
+-> The sum of degrees of all vertices = 2* No of edges 
+    as each edge is associated with 2 vertices
+
+-> If weights are not assigned , assume 1

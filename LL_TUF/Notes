@@ -1,0 +1,6 @@
+Arrays are of fixed size in a contigious memory location. Only if memory is available 
+in continious fashion, you can use it
+
+Linkedlist is of variable size, and not in contigious fashion(That's the difference between vector in cpp and list)
+
+DLL used in browzer history
